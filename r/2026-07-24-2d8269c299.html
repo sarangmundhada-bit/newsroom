@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Newsroom — 24 Jul 2026</title>
+<style>
+:root {
+  --bg:#0C101C; --bg2:#121828; --card:#171E32; --card2:#1C2440;
+  --text:#EDF0F8; --dim:#9AA3BC; --dimmer:#6B7490; --line:rgba(255,255,255,.08);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background:
+    radial-gradient(1200px 500px at 80% -10%, rgba(139,124,255,.13), transparent 60%),
+    radial-gradient(900px 400px at 0% 30%, rgba(43,217,168,.07), transparent 55%),
+    var(--bg);
+  color:var(--text); line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap { max-width:680px; margin:0 auto; padding:28px 18px 80px; }
+a { color:inherit; }
+
+/* ---- header ---- */
+.brand { font-size:13px; font-weight:800; letter-spacing:4px; color:var(--dimmer); margin-bottom:14px; }
+h1 { font-size:34px; font-weight:800; letter-spacing:-.5px; line-height:1.15; margin-bottom:6px; }
+.weekday { font-size:15px; color:var(--dim); margin-bottom:18px; }
+.headline {
+  font-size:17px; line-height:1.55; color:var(--dim); font-weight:450;
+  border-left:3px solid rgba(255,255,255,.18); padding-left:14px; margin-bottom:26px;
+}
+
+/* ---- topic nav ---- */
+.nav { display:flex; gap:10px; margin-bottom:38px; flex-wrap:wrap; }
+.nav a {
+  display:flex; align-items:center; gap:8px; text-decoration:none;
+  font-size:14px; font-weight:650; padding:10px 16px; border-radius:100px;
+  background:var(--card); border:1px solid var(--line); color:var(--text);
+}
+.nav .dt { font-size:12px; font-weight:700; color:var(--dim); }
+
+/* ---- sections ---- */
+section { margin-bottom:52px; scroll-margin-top:20px; }
+.sec-head { display:flex; align-items:center; gap:12px; margin-bottom:6px; }
+.sec-emoji { font-size:30px; }
+.sec-title { font-size:26px; font-weight:800; letter-spacing:-.3px; }
+.badge {
+  font-size:12px; font-weight:800; letter-spacing:.5px; padding:5px 12px;
+  border-radius:100px; margin-left:auto; white-space:nowrap;
+}
+.sec-topline { font-size:15.5px; color:var(--dim); margin:10px 0 22px; line-height:1.55; }
+
+.k { font-size:12.5px; font-weight:800; letter-spacing:2.5px; color:var(--dimmer);
+  text-transform:uppercase; margin-bottom:14px; }
+
+/* ---- top3 cards ---- */
+.t3 {
+  background:var(--card); border:1px solid var(--line); border-radius:20px;
+  padding:20px; margin-bottom:14px; position:relative; overflow:hidden;
+}
+.t3::before { content:''; position:absolute; left:0; top:0; bottom:0; width:4px; }
+.t3 .rank {
+  position:absolute; top:14px; right:18px; font-size:44px; font-weight:900;
+  opacity:.12; line-height:1;
+}
+.t3 h3 { font-size:18.5px; font-weight:750; line-height:1.3; margin-bottom:8px; padding-right:40px; }
+.t3 .what { font-size:15px; color:var(--dim); line-height:1.5; margin-bottom:12px; }
+.t3 .impact {
+  font-size:14.5px; line-height:1.5; font-weight:550;
+  border-radius:12px; padding:11px 14px; margin-bottom:12px;
+}
+.t3 .impact b { font-weight:800; }
+.src {
+  display:inline-block; font-size:12.5px; font-weight:650; text-decoration:none;
+  color:var(--dim); background:rgba(255,255,255,.06); border:1px solid var(--line);
+  padding:5px 12px; border-radius:100px;
+}
+.src:active { background:rgba(255,255,255,.14); }
+
+/* ---- more list ---- */
+.more { margin:22px 0 0; }
+.more-item {
+  display:block; text-decoration:none; padding:13px 2px;
+  border-bottom:1px solid var(--line); font-size:15px; line-height:1.5;
+}
+.more-item:last-child { border-bottom:none; }
+.more-item .s { font-size:12.5px; font-weight:700; margin-left:6px; white-space:nowrap; }
+
+/* ---- india ---- */
+.india {
+  margin-top:22px; display:flex; gap:12px; align-items:flex-start;
+  background:rgba(255,153,51,.07); border:1px solid rgba(255,153,51,.25);
+  border-radius:16px; padding:15px 16px; font-size:14.5px; line-height:1.5; color:#FFD9AE;
+}
+
+/* ---- footer ---- */
+footer {
+  border-top:1px solid var(--line); padding-top:22px; margin-top:10px;
+  font-size:13px; color:var(--dimmer); display:flex; justify-content:space-between;
+}
+.top-link { text-decoration:none; color:var(--dim); font-weight:650; }
+</style></head><body><div class="wrap">
+<div class="brand">NEWSROOM</div>
+<h1>24 Jul 2026</h1>
+<div class="weekday">Friday · your daily brief</div>
+<div class="headline">OpenAI makes ChatGPT Health GA to all US adults and ships Presence for enterprise agents; Stripe eyes OpenRouter at ~$10B; Cagan names the AI productivity paradox.</div>
+<nav class="nav"><a href="#ai"><span>🤖 AI</span><span class="dt" style="color:#C4BBFF">Big day</span></a><a href="#health"><span>🩺 Health tech</span><span class="dt" style="color:#A4F2DE">Big day</span></a><a href="#product"><span>📦 Product</span><span class="dt" style="color:#FFD3A6">Normal day</span></a></nav>
+<section id="ai">
+<div class="sec-head"><div class="sec-emoji">🤖</div><div class="sec-title">AI</div>
+<div class="badge" style="background:rgba(139,124,255,.14); color:#C4BBFF; border:1px solid rgba(139,124,255,.35)">Big day</div></div>
+<div class="sec-topline">An agent-infrastructure day: OpenAI shipped Presence for governed enterprise voice/chat agents, Stripe emerged as a ~$10B suitor for model-router OpenRouter, and Anthropic turned Claude voice into an agentic interface. Model-routing is consolidating into payments-scale infra.</div>
+<div class="k">Top 3</div>
+<div class="t3" style="--a:#8B7CFF"><div class="rank" style="color:#8B7CFF">1</div>
+<style>#ai .t3:nth-of-type(1)::before { background:#8B7CFF; }</style>
+<h3>OpenAI launches Presence for enterprise voice/chat agents</h3>
+<div class="what">OpenAI introduced Presence, a managed platform to deploy governed AI agents across support, sales and internal workflows via voice and chat, with per-task policy scoping and human handoff. OpenAI says it resolves 75% of its own phone-support issues and used a Codex-driven loop to cut human handoffs 15 points in 10 days.</div>
+<div class="impact" style="background:rgba(139,124,255,.09); color:#C4BBFF"><b>⚡ For you:</b> This is a direct build-vs-buy signal for 1mg&#x27;s Labs Cx and Kapture voice/chat stack. Benchmark Presence&#x27;s 75% self-resolution and its continuous-improvement loop against your current bot-handling % before committing more eng to in-house agent orchestration.</div>
+<a class="src" href="https://openai.com/index/introducing-openai-presence/" target="_blank" rel="noopener">OpenAI ↗</a>
+</div><div class="t3" style="--a:#8B7CFF"><div class="rank" style="color:#8B7CFF">2</div>
+<style>#ai .t3:nth-of-type(2)::before { background:#8B7CFF; }</style>
+<h3>Stripe in talks to buy model-router OpenRouter for ~$10B</h3>
+<div class="what">Per WSJ, Stripe is negotiating to acquire OpenRouter at roughly $10B, up from a $1.3B valuation in May. OpenRouter gives 5M+ developers one interface to route across hundreds of proprietary and open-weight models with provider switching and comparison.</div>
+<div class="impact" style="background:rgba(139,124,255,.09); color:#C4BBFF"><b>⚡ For you:</b> Model-routing is consolidating into payments-scale infrastructure. Standardizing HIH on a router rather than hard-wiring one provider keeps pricing leverage and lets you swap models as health benchmarks shift — but watch lock-in if the winners become Stripe/OpenAI.</div>
+<a class="src" href="https://finance.yahoo.com/technology/ai/articles/stripe-talks-acquire-openrouter-potential-215104525.html" target="_blank" rel="noopener">WSJ via Yahoo Finance ↗</a>
+</div><div class="t3" style="--a:#8B7CFF"><div class="rank" style="color:#8B7CFF">3</div>
+<style>#ai .t3:nth-of-type(3)::before { background:#8B7CFF; }</style>
+<h3>Anthropic upgrades Claude voice mode with agentic connectors</h3>
+<div class="what">Anthropic moved Claude voice mode onto Opus/Sonnet with live Gmail, Slack and Notion connectors, turning voice from a read-out feature into an agentic interface that can act across tools mid-conversation.</div>
+<div class="impact" style="background:rgba(139,124,255,.09); color:#C4BBFF"><b>⚡ For you:</b> Voice-as-agent-interface is arriving fast on both frontier labs — relevant to any HIH voice concierge or Labs voice-Cx bet. Track whether a voice agent that can act (book a test, trigger a refill) beats a chat surface for low-literacy or elderly chronic cohorts.</div>
+<a class="src" href="https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/" target="_blank" rel="noopener">TechCrunch ↗</a>
+</div>
+<div class="k" style="margin-top:26px">Also worth knowing</div><div class="more"><a class="more-item" href="https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/" target="_blank" rel="noopener">AI-chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, betting on transformer-specialized silicon.<span class="s" style="color:#C4BBFF">TechCrunch ↗</span></a><a class="more-item" href="https://www.bloomberg.com/news/articles/2026-07-23/black-forest-labs-unveils-first-model-for-robotics-in-shift-to-physical-ai" target="_blank" rel="noopener">Black Forest Labs entered physical AI with Flux 3 and a Flux-mimic model for robotics, pivoting beyond image generation.<span class="s" style="color:#C4BBFF">Bloomberg ↗</span></a><a class="more-item" href="https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/" target="_blank" rel="noopener">Runway shipped a generative-media model router, picking the optimal model per task as AI video/image supply crowds — the same routing thesis as OpenRouter.<span class="s" style="color:#C4BBFF">TechCrunch ↗</span></a><a class="more-item" href="https://www.theinformation.com/articles/sierra-acquires-agent-startup-takeoff-diversify-business" target="_blank" rel="noopener">Sierra acquired agent startup Takeoff (founded 2025, ~$10M ARR) to diversify its enterprise-agent business.<span class="s" style="color:#C4BBFF">The Information ↗</span></a><a class="more-item" href="https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/" target="_blank" rel="noopener">AegisAI, founded by ex-Google security execs, raised $36M to stop AI-driven spear-phishing.<span class="s" style="color:#C4BBFF">TechCrunch ↗</span></a><a class="more-item" href="https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992" target="_blank" rel="noopener">US startup founders publicly urged the Trump administration not to block Chinese open-weight models, reigniting the open-source AI policy fight (798 pts on HN).<span class="s" style="color:#C4BBFF">Politico ↗</span></a><a class="more-item" href="https://echo.tracerml.ai/" target="_blank" rel="noopener">Show HN &#x27;Echo&#x27; claims Fable-level results at one-third the cost using open-weight models — a live datapoint for open-vs-frontier cost tradeoffs (274 pts).<span class="s" style="color:#C4BBFF">Hacker News ↗</span></a><a class="more-item" href="https://siliconangle.com/2026/07/23/ropedia-raises-22m-scale-human-centric-data-collection-embodied-ai/" target="_blank" rel="noopener">Singapore&#x27;s Ropedia raised $22M pre-Series A to build human-centric multimodal datasets for embodied AI.<span class="s" style="color:#C4BBFF">SiliconANGLE ↗</span></a></div>
+<div class="india"><div>🇮🇳</div><div>Indian startups raised ~$431M across 23 deals in the third week of July 2026, AI-led: Bengaluru AI app-builder Emergent took $130M from Creaegis (~44% of the week) and Udaan raised $160M; this follows Yotta&#x27;s $150M raise at a $4.4B valuation to scale to 85,000 Nvidia Blackwell GPUs. No India-specific health-AI launch surfaced in the 24h window — domestic capital is concentrating on sovereign models, compute and coding agents.</div></div>
+</section><section id="health">
+<div class="sec-head"><div class="sec-emoji">🩺</div><div class="sec-title">Health tech</div>
+<div class="badge" style="background:rgba(43,217,168,.14); color:#A4F2DE; border:1px solid rgba(43,217,168,.35)">Big day</div></div>
+<div class="sec-topline">One dominant story: OpenAI made ChatGPT Health generally available to all US adults, wiring in medical records and Apple Health data even as it fights a lawsuit over bad advice. Around it, Teladoc bet its whole fee at risk and AI concierge-care funding continued.</div>
+<div class="k">Top 3</div>
+<div class="t3" style="--a:#2BD9A8"><div class="rank" style="color:#2BD9A8">1</div>
+<style>#health .t3:nth-of-type(1)::before { background:#2BD9A8; }</style>
+<h3>OpenAI opens ChatGPT Health to all US adults</h3>
+<div class="what">ChatGPT Health graduated from its January pilot to GA for every US user 18+ across Free through Pro, linking Apple Health plus EHRs from ~2.2M providers (Epic, Oracle Health, One Medical) via b.well. Weekly health queries have climbed to ~300M, running on a HealthBench-topping GPT-5.6-Luna model.</div>
+<div class="impact" style="background:rgba(43,217,168,.09); color:#A4F2DE"><b>⚡ For you:</b> Treat this as the new default consumer health-navigation layer HIH now competes against for free — assume users triage symptoms and read lab reports in ChatGPT before opening 1mg. Don&#x27;t try to out-answer it on generic Q&amp;A; win on India-specific EHR/ABDM depth and on converting a query into a concrete refill or diagnostics booking it can&#x27;t fulfil in India, with DPDP-grade consent.</div>
+<a class="src" href="https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/" target="_blank" rel="noopener">TechCrunch ↗</a>
+</div><div class="t3" style="--a:#2BD9A8"><div class="rank" style="color:#2BD9A8">2</div>
+<style>#health .t3:nth-of-type(2)::before { background:#2BD9A8; }</style>
+<h3>Teladoc launches Teladoc One with 100% of fees at risk</h3>
+<div class="what">Teladoc unveiled Teladoc One, a single coordinated virtual-care model replacing fragmented point solutions and tying 100% of fees to clinical and financial outcomes. It targets cardiometabolic populations first; enterprise launch Sept 2026, GA Jan 2027.</div>
+<div class="impact" style="background:rgba(43,217,168,.09); color:#A4F2DE"><b>⚡ For you:</b> Use this as the benchmark for outcomes-based pricing on HIH&#x27;s chronic-care bundles. Pressure-test whether a diagnostics+adherence package for a cardiometabolic cohort could go at-risk rather than per-service — a far stronger 10x narrative than another feature.</div>
+<a class="src" href="https://www.fiercehealthcare.com/health-tech/teladoc-health-virtual-care-model-employers-health-plans-ties-payment-results" target="_blank" rel="noopener">Fierce Healthcare ↗</a>
+</div><div class="t3" style="--a:#2BD9A8"><div class="rank" style="color:#2BD9A8">3</div>
+<style>#health .t3:nth-of-type(3)::before { background:#2BD9A8; }</style>
+<h3>Prosper Medical banks $16M seed for AI concierge primary care</h3>
+<div class="what">Prosper Medical raised $16M seed (led by FUSE) for a $69/month membership primary-care platform with dedicated physicians plus AI care coordination. Founded by the PlushCare team, which Accolade bought for $450M.</div>
+<div class="impact" style="background:rgba(43,217,168,.09); color:#A4F2DE"><b>⚡ For you:</b> Fresh evidence of willingness-to-pay for AI-augmented subscription primary care. Assess whether HIH&#x27;s chronic cohort supports a paid membership tier bundling teleconsult, diagnostics and adherence versus 1mg&#x27;s current transactional model.</div>
+<a class="src" href="https://www.fiercehealthcare.com/ai-and-machine-learning/prosper-medical-banks-16m-scale-ai-driven-concierge-care-platform" target="_blank" rel="noopener">Fierce Healthcare ↗</a>
+</div>
+<div class="k" style="margin-top:26px">Also worth knowing</div><div class="more"><a class="more-item" href="https://www.fiercehealthcare.com/ai-and-machine-learning/anterior-stellarus-enter-strategic-partnership-speed-ai-drive-prior" target="_blank" rel="noopener">Anterior and Stellarus (spun out of Blue Shield of California) partnered to automate prior authorizations, plugging Anterior&#x27;s clinical AI into AtlasIQ while clinicians keep final say.<span class="s" style="color:#A4F2DE">Fierce Healthcare ↗</span></a><a class="more-item" href="https://www.fiercehealthcare.com/payers/cigna-expands-ai-powered-care-management-programs-members" target="_blank" rel="noopener">Cigna expanded AI-powered care-management programs for members, extending payer investment in algorithmic outreach.<span class="s" style="color:#A4F2DE">Fierce Healthcare ↗</span></a><a class="more-item" href="https://www.statnews.com/2026/07/23/hhs-convenes-experts-on-clinical-ai-health-tech/" target="_blank" rel="noopener">The White House OSTP, FDA and ONC invited experts to a one-month &#x27;sprint&#x27; to set consensus principles for benchmarking and evaluating clinical AI.<span class="s" style="color:#A4F2DE">STAT News ↗</span></a></div>
+<div class="india"><div>🇮🇳</div><div>No India-specific breaking news verifiable within the 23-24 Jul window. Worth tracking but not dated to today: ABDM is in Phase 2 (private-sector onboarding, wearables/IoT integration) and the CDSCO-linked National Drug Registry rollout; India healthtech raised ~$310M in H1 2026. No new competitor funding or regulatory move (Apollo 247, PharmEasy, Practo, Netmeds) surfaced this window.</div></div>
+</section><section id="product">
+<div class="sec-head"><div class="sec-emoji">📦</div><div class="sec-title">Product</div>
+<div class="badge" style="background:rgba(255,161,78,.14); color:#FFD3A6; border:1px solid rgba(255,161,78,.35)">Normal day</div></div>
+<div class="sec-topline">Marty Cagan dropped a fresh SVPG essay naming the &#x27;AI Productivity Paradox&#x27; — faster building, flat outcomes — while Product Hunt ran an OpenAI-themed day led by AI-native spreadsheet and workspace tools. The live thread is product quality and whether AI widens the gap between strong and weak product orgs.</div>
+<div class="k">Top 3</div>
+<div class="t3" style="--a:#FFA14E"><div class="rank" style="color:#FFA14E">1</div>
+<style>#product .t3:nth-of-type(1)::before { background:#FFA14E; }</style>
+<h3>Cagan: The AI Productivity Paradox (Build to Learn vs Build to Earn)</h3>
+<div class="what">New SVPG essay argues AI accelerates delivery but not outcomes — 89% of execs say AI made work faster, only 6% can name ROI. Root cause: teams use AI to speed up project-model delivery instead of deciding what&#x27;s worth building. Cagan&#x27;s fix is to separate &#x27;Build to Learn&#x27; (discovery) from &#x27;Build to Earn&#x27; (delivery).</div>
+<div class="impact" style="background:rgba(255,161,78,.09); color:#FFD3A6"><b>⚡ For you:</b> Use this to pressure-test your 10x HIH bets: before pointing AI at faster shipping, ask whether it&#x27;s resolving the least-settled risk (value/usability), not just producing more code. Steal the Build-to-Learn / Build-to-Earn split as a gate in your mentor→PRD workflow so discovery spend is explicitly separated from delivery spend.</div>
+<a class="src" href="https://www.svpg.com/the-ai-productivity-paradox/" target="_blank" rel="noopener">SVPG (Marty Cagan) ↗</a>
+</div><div class="t3" style="--a:#FFA14E"><div class="rank" style="color:#FFA14E">2</div>
+<style>#product .t3:nth-of-type(2)::before { background:#FFA14E; }</style>
+<h3>PromptQL launches: multiplayer AI that captures tribal knowledge</h3>
+<div class="what">Top Product Hunt launch positioned as a shared AI workspace &#x27;that replaces Slack&#x27; — connects databases and SaaS apps into one team intelligence layer, capturing tribal knowledge instead of losing it in chat threads.</div>
+<div class="impact" style="background:rgba(255,161,78,.09); color:#FFD3A6"><b>⚡ For you:</b> Watch the &#x27;tribal knowledge as product surface&#x27; pattern — it maps onto HIH, where a patient&#x27;s chronic history and prior context is the moat. Frame HIH&#x27;s recommendation layer less as chat and more as a persistent, queryable knowledge store that compounds per user.</div>
+<a class="src" href="https://www.producthunt.com/leaderboard/daily/2026/7/23" target="_blank" rel="noopener">Product Hunt ↗</a>
+</div><div class="t3" style="--a:#FFA14E"><div class="rank" style="color:#FFA14E">3</div>
+<style>#product .t3:nth-of-type(3)::before { background:#FFA14E; }</style>
+<h3>&#x27;Worse on Purpose&#x27;: corporate greed and the decline of product quality</h3>
+<div class="what">Essay that hit the HN front page (~115 pts) arguing product quality has been deliberately eroded across industries as a margin lever — feeding the day&#x27;s PM debate on whether AI-speed makes it cheaper to ship mediocre.</div>
+<div class="impact" style="background:rgba(255,161,78,.09); color:#FFD3A6"><b>⚡ For you:</b> A useful counterweight in leadership rooms: pair it with Cagan&#x27;s paradox to argue speed without a quality/outcome bar erodes trust — acutely dangerous for HIH, where a shoddy recommendation is a compliance and trust failure, not just churn.</div>
+<a class="src" href="https://www.worseonpurpose.com/" target="_blank" rel="noopener">Hacker News ↗</a>
+</div>
+<div class="k" style="margin-top:26px">Also worth knowing</div><div class="more"><a class="more-item" href="https://www.producthunt.com/leaderboard/daily/2026/7/23" target="_blank" rel="noopener">Product Hunt ran &#x27;OpenAI Day&#x27; with 404 launches on 23 Jul; Teable 3.0 (AI spreadsheet turning business data into workflows/apps) took #1.<span class="s" style="color:#FFD3A6">Product Hunt ↗</span></a><a class="more-item" href="https://github.com/palmier-io/palmier-pro" target="_blank" rel="noopener">Palmier Pro, an open-source macOS video editor built for AI, trended on HN (131 pts), shipping a local MCP server so Claude/Codex agents can drive edits — a clean example of AI-native app architecture.<span class="s" style="color:#FFD3A6">Hacker News ↗</span></a><a class="more-item" href="https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html" target="_blank" rel="noopener">Codeberg banned cryptocurrency projects (352 pts) and published a stance on protecting the open-source commons from LLM scraping (190 pts) — governance discourse as AI-training norms harden.<span class="s" style="color:#FFD3A6">Hacker News ↗</span></a><a class="more-item" href="https://www.producthunt.com/leaderboard/daily/2026/7/23" target="_blank" rel="noopener">AskCodi launched a &#x27;CTO in a Mac app&#x27; orchestrating multiple coding agents and auto-routing tasks to cheaper models — the same cost-routing idea recurring across today&#x27;s launches.<span class="s" style="color:#FFD3A6">Product Hunt ↗</span></a></div>
+<div class="india"><div>🇮🇳</div><div>No verifiable India product-thinking or launch news specific to the 23-24 Jul window. Broader July context (not last-24h): Indian AI/deep-tech startups raised ~$219M in a single week and Sarvam AI unveiled Sarvam-30B/105B LLMs around the India AI Impact Summit — but nothing new datestamped to this window.</div></div>
+</section>
+<footer><div>NEWSROOM · built for Sarang</div><a class="top-link" href="#">Back to top ↑</a></footer>
+</div></body></html>
